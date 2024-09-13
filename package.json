@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "serve": "nx serve my-app"
+    "build:my-app": "nx build my-app",
+    "serve:my-app": "nx serve my-app"
   },
   "private": true,
   "dependencies": {

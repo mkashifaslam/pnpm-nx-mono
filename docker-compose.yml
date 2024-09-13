@@ -1,0 +1,11 @@
+services:
+  my-app:
+    extends:
+      file: docker-compose.base.yml
+      service: nx-app-base
+    command: pnpm run serve:my-app
+    ports:
+      - '3006:3000'
+
+volumes:
+  mono-node-modules: null
